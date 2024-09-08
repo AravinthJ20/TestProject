@@ -1,7 +1,7 @@
 //fs.writeFile for non-blocking, asynchronous file writes, 
 //and fs.writeFileSync when synchronous, 
 //blocking file writes are acceptable or necessary.
-
+let c=1;
 
 fs.writeFile('example.txt', 'Hello, world!', (err) => {
     if (err) {
