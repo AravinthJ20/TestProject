@@ -10,7 +10,7 @@ const pipeline= [
       "$match": {
         "$and": [
           {
-            "externalDeliveryID": "894001744163845"
+            "externalDeliveryID2": "894001744163845"
           }
         ]
       }
