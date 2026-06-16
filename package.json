@@ -1,0 +1,16 @@
+{
+  "name": "nodefilesystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nodeFS_Start.js",
+  "scripts": {
+    "start": "nodeFS_Start.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^3.2.0",
+    "uuid": "^9.0.1"
+  }
+}

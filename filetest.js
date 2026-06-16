@@ -2,7 +2,9 @@
 //and fs.writeFileSync when synchronous, 
 //blocking file writes are acceptable or necessary.
 let c=1;
-
+let a=2;
+let n=1;
+let b=1;
 fs.writeFile('example.txt', 'Hello, world!', (err) => {
     if (err) {
       console.error('Error writing file:', err);
